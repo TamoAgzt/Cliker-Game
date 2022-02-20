@@ -1,0 +1,33 @@
+﻿<Page x:Class="clickerApp.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:clickerApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="640" d:DesignWidth="500"
+      Title="Achievements">
+
+    <Grid>
+        <ScrollViewer Grid.Row="1" Name="ScrollViewer1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Hidden" CanContentScroll="True">
+            <StackPanel Margin="0,10,0,10">
+                <Label Name="lblAchieve1" FontSize="24"></Label>
+                <ProgressBar Name="barAchieve1" Minimum="0" Maximum="1" Height="40" />
+                <Label Name="lblAchieve2" FontSize="24"></Label>
+                <ProgressBar Name="barAchieve2" Minimum="0" Maximum="4" Height="40" />
+                <Label Name="lblAchieve3" FontSize="24"></Label>
+                <ProgressBar Name="barAchieve3" Minimum="0" Maximum="9" Height="40" />
+                <Label Name="lblAchieve4" FontSize="24"></Label>
+                <ProgressBar Name="barAchieve4" Minimum="0" Maximum="25" Height="40" />
+                <Label Name="lblAchieve5" FontSize="24"></Label>
+                <ProgressBar Name="barAchieve5" Minimum="0" Maximum="50" Height="40" />
+                <Label Name="lblAchieve6" FontSize="24"></Label>
+                <ProgressBar Name="barAchieve6" Minimum="0" Maximum="100" Height="40" />
+                <Label Name="lblAchieve7" FontSize="24"></Label>
+                <ProgressBar Name="barAchieve7" Minimum="0" Maximum="666" Height="40" />
+                <Label Name="lblAchieve8" FontSize="24"></Label>
+                <ProgressBar Name="barAchieve8" Minimum="0" Maximum="9001" Height="40" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

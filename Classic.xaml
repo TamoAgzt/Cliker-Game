@@ -1,0 +1,17 @@
+﻿<Page x:Class="clickerApp.Classic"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:clickerApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="640" d:DesignWidth="500"
+      Title="Classic Clicker">
+
+    <Grid>
+        <StackPanel>
+            <Label Name="lblClickCount" FontSize="35" Content="... clicks" HorizontalAlignment="Center"/>
+            <Button Background="ForestGreen" FontSize="50" Click="btnClicker_Click" Height="500">Click here</Button>
+        </StackPanel>
+    </Grid>
+</Page>

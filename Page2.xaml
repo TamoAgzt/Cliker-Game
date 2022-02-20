@@ -1,0 +1,21 @@
+﻿<Page x:Class="clickerApp.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:clickerApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="640" d:DesignWidth="500"
+      Title="Settings">
+
+    <Grid>
+        <StackPanel Margin="0,10,0,10">
+            <Label Content="Music"></Label>
+            <Label Content="Sound"></Label>
+            <Button Content="&lt;" Click="btnPrevTheme"></Button>
+            <Label Content="Themes"></Label>
+            <Button Content=">" Click="btnNextTheme"></Button>
+            <Button Content="Quit" Click="btnQuit" Height="40"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
