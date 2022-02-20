@@ -11,3 +11,5 @@ Pay no attention to the settings page, it is just a concept. Here you would be a
 This one is like the settings, not yet implemented, but will be a game mode where instead of a big button, you will see a small one that moves across the screen and with every couple clicks will speed up.
 
 I might add achievements for the precision gamemode in the future as well as a new game mode called reflex where small buttons will appear one after the other and will be visible for a short and limited time.
+
+Ps. Page1 is the achievements page, Page2 is the settings page.
