@@ -1,5 +1,5 @@
 # Cliker-Game
-A clicker game I'm making in C# as a WPF app. The code here is not final, it's just an example. The entire thing is a hard coded mess as of right now.
+A clicker game I'm making in C# as a WPF app. The code here is not final, it's just an example/concept. The entire thing is a hard coded mess as of right now.
 
 1) Classic clicker -- 
 There is a big button on the screen that when clicked adds 1 click to the clicks counter above.
